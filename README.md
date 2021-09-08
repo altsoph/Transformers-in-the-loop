@@ -1,11 +1,11 @@
 # Transformers-in-the-loop
 
 This repo contains supplemental materials accompanying a preprint version of the "Transformers in the loop: Polarity in neural models of language" paper. 
-Detailed explanation concerning the generation and use of this dataset is contained in the main part of the submission.
+Detailed explanation concerning the generation and use of this dataset can be found in the text of the paper.
 
 ## Abstract
 
-*We re-address the question of whether pre-trained Transformer-based models like BERT and GPT-2 have access to abstract linguistic properties of sentences. As a study case, we look at the notion of polarity. We probe polarity via so-called 'negative polarity items' (in particular, English 'any'). Typically, representation of linguistic phenomena in computational language models is evaluated against the predictions of existing linguistic theories of these phenomena. We show that -- at least for polarity -- metrics derived from language models are more consistent with data from psycholinguistic experiments than with linguistic theory predictions. Establishing this allows us to more adequately evaluate the performance of language models and also to use language models to discover new insights into natural language grammar beyond existing linguistic theories. Overall, our results encourage a closer tie between experiments with human subjects and with language models. We propose methods to enable this closer tie.*
+*Representation of linguistic phenomena in computational language models is typically assessed against the predictions of existing linguistic theories of these phenomena. Using the notion of polarity as a case study, we show that this is not always the most adequate set-up. We probe polarity via so-called 'negative polarity items' (in particular, English {\it any}) in two pre-trained Transformer-based models (BERT and GPT-2). We show that -- at least for polarity -- metrics derived from language models are more consistent with data from psycholinguistic experiments than linguistic theory predictions. Establishing this allows us to more adequately evaluate the performance of language models and also to use language models to discover new insights into natural language grammar beyond existing linguistic theories. Overall, our results encourage a closer tie between experiments with human subjects and with language models. We propose methods to enable this closer tie, with language models as part of experimental pipeline, and show this pipeline at work.*
 
 ## Code
 
@@ -15,7 +15,7 @@ There are two similar scripts,
   * `compare_pair_by_gpt.py` does the same but using GPT-2 model.
 
 ### How can I run it?
-* Use the input file in .tsv format with two columns -- each with one of sentences to compare
+* Use the input file in .tsv format with two columns -- each with one of the sentences to compare.
 * Run scripts like this:
 
 ```python scripts/compare_pair_by_bert.py --input_file datasets/real_positive_or_negative_with_any.tsv --output_file results.tsv``` 
