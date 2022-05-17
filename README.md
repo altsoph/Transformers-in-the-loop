@@ -3,8 +3,8 @@
 This repo contains supplemental materials accompanying the "Transformers in the loop: Polarity in neural models of language" paper, presented at ACL 2022.
 Some links:
 * Preprint version: https://arxiv.org/abs/2109.03926
+* ACL version: https://aclanthology.org/2022.acl-long.455.pdf
 * Online presentation (for registered attendees of ACL 2022): https://underline.io/events/321/posters/11031/poster/50653-long-transformers-in-the-loop-polarity-in-neural-models-of-language
-* Conference version: TBA
 
 <!-- This repo contains supplemental materials accompanying a preprint version of the "Transformers in the loop: Polarity in neural models of language" paper.  -->
 
